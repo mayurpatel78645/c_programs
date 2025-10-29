@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int getValidInput(char *numStr){
+int getValidInteger(char *numStr){
     int valid,num;
     char ch;
     do{
@@ -147,10 +147,10 @@ int main(){
     }
   }
   printf("max is: %d", max); */ 
-  /* int a,b,c;
-  a = getValidInput("num1");
-  b = getValidInput("num2");
-  c = getValidInput("num3");
+  int a,b,c;
+  a = getValidInteger("num1");
+  b = getValidInteger("num2");
+  c = getValidInteger("num3");
   if (a > b && a > c){
     printf("a: %d is greater than a and b", a);
   }
@@ -159,7 +159,7 @@ int main(){
   }
   else {
     printf("c: %d is greater than a and b", c);
-  } */
+  }
 
   //find if the num is +ve, -ve or 0 using if-else
   /* int num;
