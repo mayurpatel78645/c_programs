@@ -147,7 +147,7 @@ int main(){
     }
   }
   printf("max is: %d", max); */ 
-  int a,b,c;
+  /* int a,b,c;
   a = getValidInteger("num1");
   b = getValidInteger("num2");
   c = getValidInteger("num3");
@@ -159,7 +159,7 @@ int main(){
   }
   else {
     printf("c: %d is greater than a and b", c);
-  }
+  } */
 
   //find if the num is +ve, -ve or 0 using if-else
   /* int num;
@@ -250,5 +250,21 @@ int main(){
   }else{
     printf("year: %d is not a leap year", year);
   } */
+
+  //prac
+  /* int n;
+  n = -9;
+  if(n > 0){
+    if(n % 2 == 0){
+      printf("even");
+    }else{
+      printf("odd");
+    }
+  }else if(n < 0){
+    printf("negative");
+  }else{
+    printf("zero");
+  }
+ */
   return 0;
 } 

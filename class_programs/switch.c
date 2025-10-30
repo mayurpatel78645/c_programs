@@ -70,7 +70,7 @@ int main(){
   } */
 
   //grading system using switch case
-  float sum;
+  /* float sum;
   printf("Enter the total marks obtained (out of 500): ");
   scanf("%f", &sum);
   int percentage = (int)((sum / 500) * 100);
@@ -98,7 +98,7 @@ int main(){
     default:
       printf("Fail");
       break;
-  }
+  } */
   
   return 0;
 }
