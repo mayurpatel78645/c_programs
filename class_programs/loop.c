@@ -93,7 +93,7 @@ int main(){
   }while(i <= 10); */
 
   //is a prime number
-  int n = 5;
+  /* int n = 5;
   int isPrime = 1; //true
   for(int i = 2; i <= n / 2; i++){
     if(n % i == 0){
@@ -106,6 +106,6 @@ int main(){
   } else {
     printf("%d is not a prime number\n", n);
   }
-
+ */
   return 0; 
 }
