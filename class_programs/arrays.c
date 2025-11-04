@@ -34,7 +34,7 @@ int main(){
   int num_of_elements;
   int max_index= 100;
   int nums[max_index];
-  printf("How many elements would you like to enter? ");
+  printf("How many elements would you like to enter? (Max: 100) ");
   scanf("%d", &num_of_elements);
   printf("Enter array elements max(100): ");
   for (int i = 0; i < num_of_elements; i++)
