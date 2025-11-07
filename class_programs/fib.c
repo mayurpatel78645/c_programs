@@ -26,11 +26,11 @@ int main(){
     prev1 = curr;
     printf("%d\n", curr);
   } */
-  int n = 7;
+  /* int n = 7;
   for (int i = 0; i < 7; i++)
   {
     printf("%d\n", fib_series(i));
   }
-  
+   */
   return 0;
 }
