@@ -29,7 +29,7 @@ int main(){
   // elements are:
   //max elemetn: 
   //min element:
-  int max = INT_MIN;
+  /* int max = INT_MIN;
   int min = INT_MAX;
   int num_of_elements;
   int max_index= 100;
@@ -56,6 +56,14 @@ int main(){
   }
   printf("\nMax element in array is: %d\n", max);
   printf("MIn element in array is: %d", min);
+ */
 
+ /* implement a scheduler that manages processes with priorities "a", "b", "c" to achieve a specific sequence. 
+ the scheduler can perform the following operations:
+ choose a process with priority "a", "b", or "c"
+ insert the chosen process into the scheduling queue at any position
+ determine the minimum number of scheduling operations required to trnasform the initial queue into a repeating patter of "abc";
+ */
+  
   return 0;
 }
