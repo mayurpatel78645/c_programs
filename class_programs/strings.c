@@ -31,5 +31,20 @@ int main(){
   }
  */
 
+ //concatenate
+  /* char str1[20] = "this is ", str2[20] = "a string.";
+  printf("%s \t %s \t %s", strcat(str1, str2), str1, str2); */
+
+  //strcmp
+  /* char s1[20] = "apple", s2[20] = "Apples";
+  int result = strcmp(s1, s2);
+  if(result == 0){
+    printf("Equal");
+  }else if(result > 0){
+    printf("Fist non-matching character in s1 has greater ASCII value");
+  }else{
+    printf("Fist non-matching character in s1 has lesser ASCII value");
+  } */
+
   return 0;
 }
