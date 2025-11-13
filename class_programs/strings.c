@@ -35,6 +35,12 @@ int main(){
   /* char str1[20] = "this is ", str2[20] = "a string.";
   printf("%s \t %s \t %s", strcat(str1, str2), str1, str2); */
 
+  //using fgets
+  /* char* s = malloc(100);
+  printf("Enter a string: ");
+  fgets(s, sizeof(s), stdin);
+  free(s);  *///do this before returning
+
   //strcmp
   /* char s1[20] = "apple", s2[20] = "Apples";
   int result = strcmp(s1, s2);
