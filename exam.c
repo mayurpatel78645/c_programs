@@ -17,6 +17,19 @@ void check_even_odd(int number) {
   }
 }
 
+void sum_average(int n) {
+  int arr[n];
+  int sum = 0;
+  for (int i = 0; i < n; i++) {
+    printf("Enter element %d: ", i + 1);
+    scanf("%d", &arr[i]);
+    sum += arr[i];
+  }
+  double average = (double)sum / n;
+  printf("Sum: %d\n", sum);
+  printf("Average: %.2f\n", average);
+}
+
 int main() {
   printf("Choose a program to run:\n");
   printf("1. Check if a number is even or odd\n");
@@ -38,16 +51,7 @@ int main() {
       printf("Number of elements must be positive.\n");
       return 1;
     }
-    int arr[n];
-    int sum = 0;
-    for (int i = 0; i < n; i++) {
-      printf("Enter element %d: ", i + 1);
-      scanf("%d", &arr[i]);
-      sum += arr[i];
-    }
-    double average = (double)sum / n;
-    printf("Sum: %d\n", sum);
-    printf("Average: %.2f\n", average);
+    sum_average(n);
   } else {
     printf("Invalid choice.\n");
   }
