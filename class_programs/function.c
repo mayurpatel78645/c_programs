@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 #include <string.h>
+#include <math.h>
 
 //sum funtion
 int sum(int a, int b) {
@@ -55,6 +56,11 @@ void rev_str(char str[], int size) {
   }
 }
 
+//fn square and cube 
+/* float exponent(float num, int power) {
+  return pow(num, power);
+} */
+
 int main() {
   //printf("sum: %d", sum(3, 4));
   //printf("Factorial: %d", factorial(5));
@@ -63,8 +69,23 @@ int main() {
   int size = sizeof(arr) / sizeof(arr[0]);
   printf("max: %d", max_in_arr(arr, size)); */
   //check_palindrome("racecar", 30);
-  /* char str[30] = "race";
-  rev_str(str, 30);
+  char str[30];
+  printf("Enter a string to check palindrome: ");
+  fgets(str, sizeof(str), stdin);
+  int len = strlen(str);
+  if (len > 0 && str[len - 1] == '\n') {
+    str[len - 1] = '\0';
+  }
+  check_palindrome(str, 30);
+  /* rev_str(str, 30);
   printf("%s", str); */
+  /* float num;
+  float power;
+  printf("Enter a number: ");
+  scanf("%f", &num);
+  printf("Enter a power: ");
+  scanf("%f", &power);
+  
+  printf("num^power (%.2f ^ %.2f): %.2f", num, power, pow(num, power)); */
   return 0;
 }
